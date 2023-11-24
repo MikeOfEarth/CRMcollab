@@ -1,0 +1,24 @@
+.flex{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+}
+
+#topNav{
+    flex-grow: 3;
+    align-content: center;
+}
+
+#buttons{
+    justify-content: unset;
+    justify-content: flex-end;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color:black;
+}
