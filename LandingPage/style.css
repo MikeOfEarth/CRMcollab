@@ -1,24 +1,178 @@
-.flex{
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex {
     width: 100%;
-    display:flex;
+    display: flex;
     justify-content: space-between;
 }
 
-#topNav{
-    flex-grow: 3;
-    align-content: center;
+header {
+    margin: unset;
+    height: 55px;
+    padding-bottom: 20px;
 }
 
-#buttons{
+header img {
+    padding-left: 7%;
+    padding-top: 30px;
+    align-self: center;
+}
+
+#topNav {
+    padding-top: 35px;
+    padding-left: 15%;
+    align-content: center;
+    text-wrap: nowrap;
+    gap: 10%;
+}
+
+ul {
+    list-style-type: none;
+    align-self: center;
+    padding-left:0;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+#navButtons {
     justify-content: unset;
     justify-content: flex-end;
+    padding-right: 7%;
+    gap: 5%;
+    text-wrap: nowrap;
+    padding-top: 35px;
 }
 
-ul{
-    list-style-type: none;
+#navButtons button {
+    border-radius: 10px;
+    align-self: center;
+    height: 40px;
+    font-size: 16px;
+    width: 100px;
 }
 
-ul li a{
-    text-decoration: none;
-    color:black;
+.btnWhite {
+    border: 2px solid #0850F8;
+    color: #0850F8;
+    background-color: white;
+    font-weight: bold;
+}
+
+.btnWhite:hover{
+    color: white;
+    background-color: #0850F8;
+}
+
+.btnBlue {
+    border: 2px solid #0850F8;
+    color: white;
+    background-color: #0850F8;
+    font-weight: bold;
+}
+
+.btnBlue:hover {
+    color: #0850F8;
+    background-color: white;
+}
+.grid {
+    display: inline-grid;
+}
+
+hr {
+    width: 60%;
+}
+
+main {
+    margin: 50px 6%;
+}
+
+#sideBySide {
+    border: 1px black solid;
+    border-radius: 30px;
+    height: 700px;
+    justify-self: center;
+}
+
+#sBsImg {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    place-self: center;
+    padding: 0px 15px;
+}
+
+#sBsTxtBx {
+    grid-column-start: 3;
+    grid-column-end: 6;
+    background-color: #0850F8;
+    height: 100%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#sBsTxt {
+    color: white;
+    vertical-align: baseline;
+    padding-left: 30px;
+    padding-right: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+main ul li {
+    padding: 10px 0px;
+}
+
+#sBsTxt > * { 
+    padding: 15px 0px;
+}
+
+#learnBtn{
+    font-weight: unset;
+    border-color: white;
+    border-radius: 10px;
+    align-self: center;
+    width: 50%;
+    font-size: 100%;
+    padding: -10px 0px
+}
+
+div.tab img{
+    height: 50px;
+    width: 50px;
+    padding-top: 25px;
+}
+
+.tab{
+    border: black solid 1px;
+    width:115px;
+    height:130px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+#belowLineTxt{
+    text-align: center;
+    margin: auto 8%;
+    margin-bottom: 60px;
+}
+
+#belowLineTxt > h2{
+    margin-bottom: 20px;
+} 
+
+#belowLineTxt > p{
+    margin-bottom: 40px;
+} 
+
+.tab:hover{
+    background-color:#0850F8;
+    color: white;
 }

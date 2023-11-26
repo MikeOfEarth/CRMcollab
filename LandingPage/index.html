@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Double Tap</title>
+    <!-- Roboto font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="../AllAssets/Favicon.ico">
+    <!-- CSS plug -->
     <link rel="stylesheet" href="style.css">
 </head>
 <header class="flex">
     <img src="../AllAssets/Logo.png" alt="Double Tap Logo">
-    <nav class="flex" id="topNav">
-        <ul class="flex">
+    <nav class="flex">
+        <ul class="flex" id="topNav">
             <li><a href="">Home</a></li>
             <li><a href="">Features</a></li>
             <li><a href="">Pricing</a></li>
@@ -18,15 +25,65 @@
             <li><a href="">Support</a></li>
         </ul>
     </nav>
-    <div class="flex" id="buttons">
-        <button>Sign In</button>
-        <button>Try It Free</button>
+    <div class="flex" id="navButtons">
+        <button class="btnWhite">Sign In</button>
+        <button class="btnBlue">Try It Free</button>
     </div>
 </header>
+
 <body>
-    
+    <div></div>
+    <hr>
+    <main>
+        <div>
+            <div id="belowLineTxt">
+                <h2>Start to Explore Double Tap</h2>
+                <p>A new and better way for small businesses to manage their customer base, payments and keep track of internal tasks.</p>
+                <div id="exploreTabs" class="flex">
+                    <div class="tab">
+                        <img src="../AllAssets/money.png" alt="">
+                        <p>Payments</p>
+                    </div>
+                    <div class="tab">
+                        <img src="../AllAssets/Page-1.png" alt="">
+                        <p>Retain</p>
+                    </div>
+                    <div class="tab">
+                        <img src="../AllAssets/layer1.png" alt="">
+                        <p>Reporting</p>
+                    </div>
+                    <div class="tab">
+                        <img src="../AllAssets/upanddown opposite sidebyside updown directions two arrows.png" alt="">
+                        <p>Convert</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex" id="exploreTags">
+
+            </div>
+        </div>
+        <div class="grid" id="sideBySide">
+            <img src="../AllAssets/credit-card-picture.png" alt="" id="sBsImg">
+            <div id="sBsTxtBx">
+                <div id="sBsTxt">
+                    <h2>Start accepting payments with Ease</h2>
+                    <h3>Deliver the world of payment options and seamless checkout experiences, making it easy for your customers to pay you for your products and services.</h3>
+                    <ul>
+                        <li>- Accept creadit & debit cards, Paypal, ACH, Apple pay and more with the flick of a switch
+                        </li>
+                        <li>- Process transactions in up to 32 currencies</li>
+                        <li>- Integrate with popular payment gateways like Stripe, and Braintree</li>
+                        <li>- Select from a variety of different checkout options and experiences</li>
+                    </ul>
+                    <button class=btnBlue id="learnBtn">Learn More</button>
+                </div>
+            </div>
+        </div>
+        <div></div>
+    </main>
 </body>
 <footer>
 
 </footer>
+
 </html>
